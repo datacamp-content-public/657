@@ -76,9 +76,15 @@ At the most basic level, R can be used just like a calculator.  All manner of ma
 `@sct`
 
 ```{r}
-check_correct()
-check_correct()
-check_correct()
-check_correct()
+keepoff <- "Don't mess with the code that is already here"
+test_student_typed("# Addition, subtraction, multiplication, and division", incorrect_msg = keepoff)
+test_output_contains("5 + 5", incorrect_msg = keepoff)
+test_output_contains("3 - 7", incorrect_msg = keepoff)
+test_output_contains("4 * 0.5", incorrect_msg = keepoff)
+test_output_contains("6 / 4", incorrect_msg = keepoff)
+test_student_typed("# Exponentiation")
+test_output_contains("3 ^ 3")
+test_student_typed("# R obeys order of operations")
+test_output_contains("(-7)^2 + 4 - 6 * 2 + -2^3")
 success_msg("Congratulations! A journey of a thousand lines of code begins with a single step (or command?)")
 ```
