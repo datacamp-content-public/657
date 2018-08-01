@@ -59,8 +59,11 @@ At the most basic level, R can be used just like a calculator.  All manner of ma
 ```{r}
 # Addition, subtraction, multiplication, and division
 5 + 5
+
 3 - 7
+
 4 * 0.5
+
 6 / 4
 
 # Exponentiation
@@ -73,5 +76,9 @@ At the most basic level, R can be used just like a calculator.  All manner of ma
 `@sct`
 
 ```{r}
+check_correct()
+check_correct()
+check_correct()
+check_correct()
 success_msg("Congratulations! A journey of a thousand lines of code begins with a single step (or command?)")
 ```
