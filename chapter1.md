@@ -24,16 +24,14 @@ At the most basic level, R can be used just like a calculator.  All manner of ma
 - Inspect the resulting output in the console window in the bottom-right
 
 `@hint`
-- Here is the hint for this setup problem. 
-- It should get students 50% of the way to the correct answer.
-- So don't provide the answer, but don't just reiterate the instructions.
-- Typically one hint per instruction is a sensible amount.
+- If you keep getting an error message click the reset button and try submitting again
 
 `@pre_exercise_code`
 
 ```{r}
-# Load datasets and packages here.
+
 ```
+
 
 `@sample_code`
 
