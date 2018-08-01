@@ -1,20 +1,21 @@
 ---
-title: Template Chapter 1
-description: This is a template chapter.
+  title: "R basics"
+  description: ""
 ---
 
-## An exercise title written in sentence case
+## using R as a calculator
 
 ```yaml
-type: NormalExercise
+type: NormalExercise 
 lang: r
-xp: 100
+xp: 100 
 skills: 1
-key: adebd63aff
+key: adebd63aff   
 ```
 
-This is the assignment text. It should help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
+
+At the most basic level, R can be used just like a calculator. All manner of mathematical operations are possible
+
 
 `@instructions`
 - Instruction 1
