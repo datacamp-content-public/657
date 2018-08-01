@@ -14,7 +14,7 @@ key: adebd63aff
 ```
 
 
-
+At the most basic level, R can be used just like a calculator. All manner of mathematical operations are possible.
 
 
 `@instructions`
