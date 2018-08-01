@@ -52,15 +52,21 @@ At the most basic level, R can be used just like a calculator.  All manner of ma
 `@solution`
 
 ```{r}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+# Addition, subtraction, multiplication, and division
+5 + 5
+3 - 7
+4 * 0.5
+6 / 4
+
+# Exponentiation
+3 ^ 3
+
+# R obeys order of operations
+(-7)^2 + 4 - 6 * 2 + -2^3
 ```
 
 `@sct`
 
 ```{r}
-# Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+success_msg("Congratulations! A journey of a thousand lines of code begins with a single step (or command?)")
 ```
