@@ -40,8 +40,11 @@ At the most basic level, R can be used just like a calculator.  All manner of ma
 ```{r}
 # Addition, subtraction, multiplication, and division
 5 + 5
+
 3 - 7
+
 4 * 0.5
+
 6 / 4
 
 # Exponentiation
