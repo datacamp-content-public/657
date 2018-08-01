@@ -14,14 +14,12 @@ key: adebd63aff
 ```
 
 
-At the most basic level, R can be used just like a calculator. All manner of mathematical operations are possible.
+At the most basic level, R can be used just like a calculator.  All manner of mathematical operations are possible.
 
 
 `@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
-- Instruction 4
+- Run the code in the script window on the right by clicking the "Submit Answer" button 
+- Ctrl + Shift + Enter also works
 
 `@hint`
 - Here is the hint for this setup problem. 
@@ -38,15 +36,17 @@ At the most basic level, R can be used just like a calculator. All manner of mat
 `@sample_code`
 
 ```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+# Addition, subtraction, multiplication, and division
+5 + 5
+3 - 7
+4 * 0.5
+6 / 4
+
+# Exponentiation
+3 ^ 3
+
+# R obeys order of operations
+(-7)^2 + 4 - 6 * 2 + -2^3
 ```
 
 `@solution`
