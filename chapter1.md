@@ -21,6 +21,8 @@ At the most basic level, R can be used just like a calculator.  All manner of ma
 - Run the code in the script window on the right by clicking the "Submit Answer" button 
 - Ctrl + Shift + Enter also works
 
+- Inspect the resulting output in the console window in the bottom-right
+
 `@hint`
 - Here is the hint for this setup problem. 
 - It should get students 50% of the way to the correct answer.
